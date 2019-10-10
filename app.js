@@ -22,7 +22,7 @@ io.on('connection', function(socket){
     socket.on('msgParaServidor', function(data){
         
         /* verificar se mensagem não está vazia */
-        if(data.mensagem.length > 0){
+        if(data.mensagem.length != 0){
             socket.emit(
                 'msgParaCliente',
                 {apelido: data.apelido, mensagem: data.mensagem}
