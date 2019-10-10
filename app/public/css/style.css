@@ -1,5 +1,5 @@
 body {
-    background-color: #B0C4DE;
+    background-color: rgb(26, 61, 105);
 }
 
 .form-signin input[type="text"] {
@@ -37,7 +37,7 @@ body {
 }
 .panel {
     margin-bottom: 20px;
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(4, 4, 54, 0.75);
     border: 1px solid transparent;
     border-radius: 4px;
     -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
@@ -83,18 +83,19 @@ img {
 	height:auto;
 	margin-bottom:15px;
 	padding:10px;
-    background:rgba(128, 156, 190, 0.959);
+    background:rgba(2, 32, 70, 0.959);
     border-radius: 10px;
 }
 
 .dialogo h4{
-	font-size:15px;
+    font-size:15px;
+    padding-left:10px;
 	font-weight: bold;
-    color:rgb(223, 239, 250);
+    color:rgb(230, 233, 235);
 }
 
 .dialogo p{
 	font-size:12px;
-	padding-left:15px;
-	color:rgb(255, 255, 255);
+	padding-left:20px;
+	color:rgb(220, 237, 248);
 }
